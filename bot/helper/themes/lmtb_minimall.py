@@ -43,62 +43,62 @@ class  LMTBStyle:
     BOT_STATS = '''📊 <b><i>BOT STATISTICS :</i></b>
 ⏱️ <b>Bot Uptime :</b> {bot_uptime}
 
-🧠 <b>RAM ( MEMORY ) :</b>
-{ram_bar} {ram}%
-<b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
+┎ 🧠 <b>RAM ( MEMORY ) :</b>
+┃ {ram_bar} {ram}%
+┖ <b>U :</b> {ram_u} | <b>F :</b> {ram_f} | <b>T :</b> {ram_t}
 
-💾 <b>SWAP MEMORY :</b>
-{swap_bar} {swap}%
-<b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
+┎ 💾 <b>SWAP MEMORY :</b>
+┃ {swap_bar} {swap}%
+┖ <b>U :</b> {swap_u} | <b>F :</b> {swap_f} | <b>T :</b> {swap_t}
 
-💽 <b>DISK :</b>
-{disk_bar} {disk}%
-<b>Total Disk Read :</b> {disk_read}
-<b>Total Disk Write :</b> {disk_write}
-<b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
+┎ 💽 <b>DISK :</b>
+┃ {disk_bar} {disk}%
+┃ <b>Total Disk Read :</b> {disk_read}
+┃ <b>Total Disk Write :</b> {disk_write}
+┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     '''
     SYS_STATS = '''🖥️ <b><i>OS SYSTEM :</i></b>
-⏱️ <b>OS Uptime :</b> {os_uptime}
-🖥️ <b>OS Version :</b> {os_version}
-🧬 <b>OS Arch :</b> {os_arch}
+┠ ⏱️ <b>OS Uptime :</b> {os_uptime}
+┠ 🖥️ <b>OS Version :</b> {os_version}
+┖ 🧬 <b>OS Arch :</b> {os_arch}
 
 🌐 <b><i>NETWORK STATS :</i></b>
-⬆️ <b>Upload Data:</b> {up_data}
-⬇️ <b>Download Data:</b> {dl_data}
-📦 <b>Pkts Sent:</b> {pkt_sent}k
-📦 <b>Pkts Received:</b> {pkt_recv}k
-🔄 <b>Total I/O Data:</b> {tl_data}
+┠ ⬆️ <b>Upload Data:</b> {up_data}
+┠ ⬇️ <b>Download Data:</b> {dl_data}
+┠ 📦 <b>Pkts Sent:</b> {pkt_sent}k
+┠ 📦 <b>Pkts Received:</b> {pkt_recv}k
+┖ 🔄 <b>Total I/O Data:</b> {tl_data}
 
-🧮 <b>CPU :</b>
-{cpu_bar} {cpu}%
-<b>CPU Frequency :</b> {cpu_freq}
-<b>System Avg Load :</b> {sys_load}
-<b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
-<b>Total Core(s) :</b> {total_core}
-<b>Usable CPU(s) :</b> {cpu_use}
+┎ 🧮 <b>CPU :</b>
+┃ {cpu_bar} {cpu}%
+┠ <b>CPU Frequency :</b> {cpu_freq}
+┠ <b>System Avg Load :</b> {sys_load}
+┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
+┠ <b>Total Core(s) :</b> {total_core}
+┖ <b>Usable CPU(s) :</b> {cpu_use}
     '''
     REPO_STATS = '''📦 <b><i>REPO STATISTICS :</i></b>
-🕒 <b>Bot Updated :</b> {last_commit}
-🔢 <b>Current Version :</b> {bot_version}
-🆕 <b>Latest Version :</b> {lat_version}
-📝 <b>Last ChangeLog :</b> {commit_details}
+┎ 🕒 <b>Bot Updated :</b> {last_commit}
+┠ 🔢 <b>Current Version :</b> {bot_version}
+┠ 🆕 <b>Latest Version :</b> {lat_version}
+┖ 📝 <b>Last ChangeLog :</b> {commit_details}
 
 💬 <b>REMARKS :</b> <code>{remarks}</code>
     '''
     BOT_LIMITS = '''🚦 <b><i>BOT LIMITATIONS :</i></b>
-📥 <b>Direct Limit :</b> {DL} GB
-🧲 <b>Torrent Limit :</b> {TL} GB
-☁️ <b>GDrive Limit :</b> {GL} GB
-📺 <b>YT-DLP Limit :</b> {YL} GB
-🎶 <b>Playlist Limit :</b> {PL}
-🗃️ <b>Mega Limit :</b> {ML} GB
-🔁 <b>Clone Limit :</b> {CL} GB
-📤 <b>Leech Limit :</b> {LL} GB
+┎ 📥 <b>Direct Limit :</b> {DL} GB
+┠ 🧲 <b>Torrent Limit :</b> {TL} GB
+┠ ☁️ <b>GDrive Limit :</b> {GL} GB
+┠ 📺 <b>YT-DLP Limit :</b> {YL} GB
+┠ 🎶 <b>Playlist Limit :</b> {PL}
+┠ 🗃️ <b>Mega Limit :</b> {ML} GB
+┠ 🔁 <b>Clone Limit :</b> {CL} GB
+┖ 📤 <b>Leech Limit :</b> {LL} GB
 
-⏳ <b>Token Validity :</b> {TV}
-⏱️ <b>User Time Limit :</b> {UTI} / task
-🔄 <b>User Parallel Tasks :</b> {UT}
-🔄 <b>Bot Parallel Tasks :</b> {BT}
+┎ ⏳ <b>Token Validity :</b> {TV}
+┠ ⏱️ <b>User Time Limit :</b> {UTI} / task
+┠ 🔄 <b>User Parallel Tasks :</b> {UT}
+┖ 🔄 <b>Bot Parallel Tasks :</b> {BT}
   '''
     # ---------------------
 
@@ -228,11 +228,11 @@ class  LMTBStyle:
     # async def countNode(_, message): ----> gd_count.py
     COUNT_MSG = '🔄 <b>Counting:</b> <code>{LINK}</code>'
     COUNT_NAME = '🏷️ <b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '💾 <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '📁 <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '📂 <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '🗂️ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '👤 <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '┠ 💾 <b>Size: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '┠ 📁 <b>Type: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '┠ 📂 <b>SubFolders: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '┠ 🗂️ <b>Files: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '┖ 👤 <b>By: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
@@ -255,47 +255,47 @@ class  LMTBStyle:
     # USER Setting --> user_setting.py 
     USER_SETTING = '''👤⚙️ <b><u>User Settings :</u></b>
         
-📝 <b> Name :</b> {NAME} ( <code>{ID}</code> )
-🔗 <b> Username :</b> {USERNAME}
-🌐 <b> Telegram DC :</b> {DC}
-🗣️ <b> Language :</b> {LANG}
+┎ 📝 <b> Name :</b> {NAME} ( <code>{ID}</code> )
+┠ 🔗 <b> Username :</b> {USERNAME}
+┠ 🌐 <b> Telegram DC :</b> {DC}
+┖ 🗣️ <b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
 • <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
 
     UNIVERSAL = '''🌐 <b><u>Universal Settings : {NAME}</u></b>
 
-🎬 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
-🔄 <b> Daily Tasks :</b> <code>{DT}</code> per day
-🕒 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
-🔑 <b> User Session :</b> <code>{USESS}</code>
-📃 <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
-💾 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
-🤖 <b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┎🎬 <b> YT-DLP Options :</b> <b><code>{YT}</code></b>
+┠🔄 <b> Daily Tasks :</b> <code>{DT}</code> per day
+┠🕒 <b> Last Bot Used :</b> <code>{LAST_USED}</code>
+┠🔑 <b> User Session :</b> <code>{USESS}</code>
+┠📃 <b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
+┠💾 <b> Save Mode :</b> <code>{SAVE_MODE}</code>
+┖🤖 <b> User Bot PM :</b> <code>{BOT_PM}</code>'''
 
     MIRROR = '''🪞 <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
-🔗 <b> RClone Config :</b> <i>{RCLONE}</i>
-🔤 <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
-🔡 <b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
-✏️ <b> Mirror Remname :</b> <code>{MREMNAME}</code>
-🖇️ <b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
-🗂️ <b> User TD Mode :</b> <i>{TMODE}</i>
-📊 <b> Total User TD(s) :</b> <i>{USERTD}</i>
-🔄 <b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┎🔗 <b> RClone Config :</b> <i>{RCLONE}</i>
+┠🔤 <b> Mirror Prefix :</b> <code>{MPREFIX}</code>
+┠🔡 <b> Mirror Suffix :</b> <code>{MSUFFIX}</code>
+┠✏️ <b> Mirror Remname :</b> <code>{MREMNAME}</code>
+┠🖇️ <b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
+┠🗂️ <b> User TD Mode :</b> <i>{TMODE}</i>
+┠📊 <b> Total User TD(s) :</b> <i>{USERTD}</i>
+┖🔄 <b> Daily Mirror :</b> <code>{DM}</code> per day'''
 
     LEECH = '''📥 <b><u>Leech Settings for {NAME}</u></b>
 
-🔄 <b> Daily Leech : </b><code>{DL}</code> per day
-🗂️ <b> Leech Type :</b> <i>{LTYPE}</i>
-🖼️ <b> Custom Thumbnail :</b> <i>{THUMB}</i>
-📦 <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
-➗ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
-🖇️ <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
-📝 <b> Leech Caption :</b> <code>{LCAPTION}</code>
-🔤 <b> Leech Prefix :</b> <code>{LPREFIX}</code>
-🔡 <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
-💻 <b> Leech Metadata :</b> <code>{LMETA}</code>
-🧷 <b> Leech Attachment :</b> <code>{LATTACH}</code>
-🗑️ <b> Leech Dumps :</b> <code>{LDUMP}</code>
-✏️ <b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┎🔄 <b> Daily Leech : </b><code>{DL}</code> per day
+┠🗂️ <b> Leech Type :</b> <i>{LTYPE}</i>
+┠🖼️ <b> Custom Thumbnail :</b> <i>{THUMB}</i>
+┠📦 <b> Leech Split Size :</b> <code>{SPLIT_SIZE}</code>
+┠➗ <b> Equal Splits :</b> <i>{EQUAL_SPLIT}</i>
+┠🖇️ <b> Media Group :</b> <i>{MEDIA_GROUP}</i>
+┠📝 <b> Leech Caption :</b> <code>{LCAPTION}</code>
+┠🔤 <b> Leech Prefix :</b> <code>{LPREFIX}</code>
+┠🔡 <b> Leech Suffix :</b> <code>{LSUFFIX}</code>
+┠💻 <b> Leech Metadata :</b> <code>{LMETA}</code>
+┠🧷 <b> Leech Attachment :</b> <code>{LATTACH}</code>
+┠🗑️ <b> Leech Dumps :</b> <code>{LDUMP}</code>
+┖✏️ <b> Leech Remname :</b> <code>{LREMNAME}</code>'''
